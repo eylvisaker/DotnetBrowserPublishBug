@@ -16,7 +16,7 @@ Platform tests:
 There are four scripts:
 
 The clean script will clean the outputs.
-The build script should verify that avalonia.js is in the correct location.
+The build script will run the dotnet publish command on the browser project. 
 The test script will verify the output of avalonia.js
 The run script will start up a webserver that serves the wasm application from a static file source.
 
